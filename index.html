@@ -84,28 +84,34 @@
       </aside>
     </main>
     <article>
-      <form name="calculator">
-        <h3>Számold ki a napi szén-dioxid kibocsátásodat!</h3>
-        <label for="distance">Napi autós utazás (km):</label>
+        <form name="calculator">
+            <label for="vehicle">Válassz járművet:</label>
+            <select id="vehicle">
+                <option value="car">Autó</option>
+                <option value="bus">Busz</option>
+                <option value="bike">Bicikli</option>
+            </select>
+
+        <label for="distance">Napi utazás (km):</label>
         <input
-          type="number"
-          id="distance"
-          placeholder="Írd be a napi utazott km-t"
-          required
+            type="number"
+            id="distance"
+            placeholder="Írd be a napi utazott km-t"
+            required
         />
 
-        <label for="carEmission">Autó szén-dioxid kibocsátás (g/km):</label>
+        <label for="carEmission">Szén-dioxid kibocsátás (g/km):</label>
         <input
-          type="number"
-          id="carEmission"
-          placeholder="Pl. 120 g/km"
-          required
+            type="number"
+            id="carEmission"
+            placeholder="Pl. 120 g/km"
+            required
         />
 
         <button type="button" onclick="calculateCO2()">Kiszámolás</button>
 
         <h3 id="result"></h3>
-      </form>
+        </form>
     </article>
     <footer>
       <h3>Készítők:</h3>
