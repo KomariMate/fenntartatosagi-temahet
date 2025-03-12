@@ -44,10 +44,22 @@
           le tudjuk adni.
         </p>
       </section>
-      <section>
+      <aside>
         <img src="Fenntarthato/img1.png" alt="img1" title="img1">
-      </section>
+    </aside>
     </main>
+    <article>
+        <form name="calculator">
+        <h3>Számold ki a napi szén-dioxid kibocsátásodat!</h3>
+        <label for="distance">Napi autós utazás (km):</label>
+        <input type="number" id="distance" placeholder="Írd be a napi utazott km-t" required>
+
+        <label for="carEmission">Autó szén-dioxid kibocsátás (g/km):</label>
+        <input type="number" id="carEmission" placeholder="Pl. 120 g/km" required>
+
+        <button type="button" onclick="calculateCO2()">Kiszámolás</button>
+        </form>
+    </article>
     <footer>
     <h3>Készítők:</h3>
     <p>Komári István Máté (Mate)</p>
