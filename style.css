@@ -3,11 +3,6 @@ body{
     margin: 0px 10% 0px 10%;
     opacity: 80%;
     color: rgb(63, 58, 87);
-    border: 2px solid black;
-
-}
-
-main{
     
 
 }
@@ -17,4 +12,20 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     height: 220px;
+    border: 2px solid black;
+}
+
+main{
+    padding: 5px;
+    background-color: white;
+}
+
+
+
+footer{
+    text-align: right;
+    background-color: rgb(66, 168, 66);
+    color: rgb(220, 240, 220);
+    padding: 10px;
+    font-size: 20px;
 }
