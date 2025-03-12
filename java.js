@@ -1,23 +1,23 @@
 function calculateCO2() {
-    const distance = document.getElementById("distance").value;
-    const carEmission = document.getElementById("carEmission").value;
-    const vehicleType = document.getElementById("vehicle").value;
+    const tav = document.getElementById("tavolsag").value;
+    const auto = document.getElementById("kibocsat").value;
+    const tipus = document.getElementById("jarmu").value;
 
-    if (distance && carEmission) {
+    if (tav && auto) {
         let totalCO2 = 0;
 
-        if (vehicleType === "car") {
-            totalCO2 = distance * carEmission;
-        } else if (vehicleType === "bus") {
+        if (tipus === "car") {
+            totalCO2 = tav * auto;
+        } else if (tipus === "bus") {
             // Példa busz szén-dioxid kibocsátás: 70g/km
-            totalCO2 = distance * 70; 
-        } else if (vehicleType === "bike") {
+            totalCO2 = tav * 70; 
+        } else if (tipus === "bike") {
             // Bicikli nem bocsát ki CO2-t, de mondhatjuk, hogy nulla kibocsátás.
             totalCO2 = 0; 
         }
 
         document.getElementById("result").innerText = 
-            vehicleType === "bike" ? 
+            tipus === "bike" ? 
             "A napi szén-dioxid kibocsátásod: 0 g CO₂ (bicikli)" :
             `A napi szén-dioxid kibocsátásod: ${totalCO2} g CO₂`;
     } else {
