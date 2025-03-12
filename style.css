@@ -11,7 +11,7 @@ header{
     background-image: url(/Fenntarthato/ht3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 200px;
     border: 2px solid black;
 }
 
@@ -20,7 +20,7 @@ main{
     background-color: white;
     display: flex;
     justify-content: space-between;
-    height: 50vw;
+    height: 40vw;
 }
 
 section{
@@ -37,6 +37,7 @@ article{
     border-radius: 2% 2%;
     background-color: rgb(75, 161, 75);
     height: 10%;
+    color: white;
 }
 
 img{
