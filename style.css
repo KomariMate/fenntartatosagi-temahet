@@ -1,6 +1,6 @@
 body{
     background: rgb(230, 247, 206);
-    margin: 0px 10% 0px 10%;
+    margin: 0px 9% 0px 9%;
     opacity: 80%;
     color: rgb(63, 58, 87);
     
@@ -16,11 +16,20 @@ header{
 }
 
 main{
-    padding: 5px;
+    padding: 30px;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
+aside{
+    width: 50%; 
+    margin: auto;
+}
 
+img{
+    height: 20%;
+}
 
 footer{
     text-align: right;
