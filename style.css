@@ -13,6 +13,8 @@ header{
     background-repeat: no-repeat;
     height: 200px;
     border: 2px solid black;
+    color: white;
+    padding-top: 10px;
 }
 
 main{
@@ -53,4 +55,8 @@ footer{
     color: rgb(220, 240, 220);
     padding: 10px;
     font-size: 20px;
+}
+
+a, a:hover {
+    color: rgb(173, 173, 238);
 }
