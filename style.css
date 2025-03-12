@@ -22,13 +22,19 @@ main{
     justify-content: space-between;
 }
 
+section{
+    width: 60%;
+}
+
 aside{
-    width: 50%; 
-    margin: auto;
+    width: 40%; 
 }
 
 img{
+    padding-top: 30%;
     height: 20%;
+    display: block;
+    margin: auto;
 }
 
 footer{
