@@ -20,6 +20,7 @@ main{
     background-color: white;
     display: flex;
     justify-content: space-between;
+    height: 50vw;
 }
 
 section{
@@ -30,9 +31,13 @@ aside{
     width: 40%; 
 }
 
+article{
+    background-color: rgb(75, 161, 75);
+}
+
 img{
     padding-top: 30%;
-    height: 20%;
+    height: 50%;
     display: block;
     margin: auto;
 }
