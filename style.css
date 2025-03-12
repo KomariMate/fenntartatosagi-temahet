@@ -7,4 +7,5 @@ main{
     margin: 0px 10% 0px 10%;
     opacity: 80%;
     color: rgb(63, 58, 87);
+    border: 2px solid black;
 }
