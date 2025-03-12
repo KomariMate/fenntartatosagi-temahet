@@ -9,3 +9,9 @@ main{
     color: rgb(63, 58, 87);
     border: 2px solid black;
 }
+
+header{
+    background-image: ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
