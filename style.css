@@ -29,10 +29,15 @@ main{
 }
 
 section{
+    display: block;
+    margin: auto;
+}
+
+.tarolo1{
     width: 60%;
 }
 
-aside{
+.tarolo2{
     width: 40%; 
 }
 
@@ -41,13 +46,13 @@ article{
     border: 2px solid green;
     border-radius: 2% 2%;
     background-color: rgb(75, 161, 75);
-    height: 10%;
+    height: 3vw;
     color: white;
 }
 
 img{
-    padding-top: 30%;
-    height: 50%;
+    padding-top: 1vw;
+    height: 30vw;
     display: block;
     margin: auto;
 }
